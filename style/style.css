@@ -161,15 +161,11 @@
 /* first section style end  */
 /* second section start  */
 
-.Inspiration-content {
-  border: 2px solid red;
-  /* max-width: 1440px; */
-}
 .Inspiration-container {
   width: 615px;
   height:550px;
   margin: 0 auto;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .Inspiration {
   display: flex;
@@ -207,3 +203,4 @@
 .video-content .video-container iframe{
     border-radius: 15px;
 }
+/* second section style end  */
