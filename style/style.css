@@ -18,7 +18,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 998px;
+  max-width: 998px;
   height: 621px;
   margin: 0 auto;
 }
