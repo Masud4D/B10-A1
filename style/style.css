@@ -5,7 +5,7 @@
   font-family: "Azeret Mono", monospace;
 }
 
-/* banner style */
+/* -----------------banner style ----------------------*/
 .banner {
   background-image: url("../assets/Hero-bg.png");
   background-position: center;
@@ -14,7 +14,7 @@
   height: 652px;
   margin: 0 auto;
 }
-/* hero section start  */
+/* --------------------hero section start ---------------- */
 .hero {
   display: flex;
   flex-direction: column;
@@ -58,11 +58,11 @@
   margin-top: 32px;
 }
 
-/* hero section end  */
+/* ------------------hero section end ------------------- */
 
-/* main section style  */
+/* -----------------main section style---------------  */
 
-/* first section start  */
+/* ---------------first section start ----------------- */
 .web-development {
   max-width: 1140px;
   height: 1200px;
@@ -97,9 +97,7 @@
   text-align: center;
   opacity: 0.7;
 }
-.web-development-container .coding-content {
-  /* border: 2px solid red; */
-}
+
 .web-development-container .coding-content .coding-container {
   display: flex;
   justify-content: space-evenly;
@@ -158,14 +156,14 @@
   opacity: 0.7;
 }
 
-/* first section style end  */
-/* second section start  */
+/* ------------------first section style end ----------------- */
+
+/*----------------- second section start-------------------  */
 
 .Inspiration-container {
   width: 615px;
   height: 550px;
   margin: 0 auto;
-  /* border: 2px solid green; */
 }
 .Inspiration {
   display: flex;
@@ -203,8 +201,9 @@
 .video-content .video-container iframe {
   border-radius: 15px;
 }
-/* second section style end  */
-/* third section start  */
+/* --------------------second section style end -------------- */
+
+/*------------------ third section start-------------------  */
 .Current-Target {
   max-width: 1920px;
   height: 500px;
@@ -290,8 +289,14 @@
 .card-contain .card-container .card .btn-2 a {
   color: rgb(13, 19, 33);
 }
-/* third section style end */
-/* fourth section start  */
+/* -------------third section style end---------------- */
+
+/*-------------- fourth section start-----------------  */
+.need-contain {
+  width: 1440px;
+  height: 450px;
+  margin: 0 auto;
+}
 .need-contain .need-support-contain {
   background-image: url("../assets/handshake.jpg");
   background-size: cover;
@@ -303,7 +308,6 @@
   justify-content: center;
   text-align: center;
   border-radius: 16px;
-  
 }
 .need-contain .need-support-contain .need-support {
   display: flex;
@@ -346,6 +350,7 @@
   font-size: 16px;
   line-height: 19px;
   margin-top: 24px;
+  outline: none;
 }
 .need-support-contain .need-support-container .form .btn-3 {
   border-radius: 8px;
@@ -358,4 +363,32 @@
   line-height: 23px;
   text-align: center;
 }
-/* fourth section style end  */
+/*----------- fourth section style end---------------*/
+
+/*------------- footer section start---------------  */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(13, 19, 33, 0.03);
+  max-width: 1920px;
+  height: 100px;
+}
+footer .containt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  height: 40px;
+}
+.containt .title .description{
+  color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+}
+.containt .img-containt{
+  display: flex;
+  gap:16px;
+}
+/*---------------- footer section style end ---------------*/
