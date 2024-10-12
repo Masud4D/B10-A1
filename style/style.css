@@ -163,7 +163,7 @@
 
 .Inspiration-container {
   width: 615px;
-  height:550px;
+  height: 550px;
   margin: 0 auto;
   /* border: 2px solid green; */
 }
@@ -200,7 +200,94 @@
   margin: 0 auto;
   margin-top: 30px;
 }
-.video-content .video-container iframe{
-    border-radius: 15px;
+.video-content .video-container iframe {
+  border-radius: 15px;
 }
 /* second section style end  */
+/* third section start  */
+.Current-Target {
+  max-width: 1920px;
+  height: 500px;
+}
+.Current-Target .target-contain {
+  max-width: 1140px;
+  height: 460px;
+  margin: auto;
+}
+.Current-Target .target-contain .target {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  max-width: 852px;
+  margin: 0 auto;
+}
+.Current-Target .target .title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+.Current-Target .target .description {
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+.card-contain {
+  display: flex;
+  justify-content: space-between;
+}
+.card-contain .card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  padding: 20px 20px;
+}
+.card-contain .card-container .card {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 20px 20px;
+}
+.card-contain .card-container #card-2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-contain .card-container #card-3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.card-contain .card-container .card .title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 10px;
+}
+.card-contain .card-container .card .description {
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+.card-contain .card-container .card .btn-2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  border: none;
+  margin-top: 10px;
+  background: none;
+}
+.card-contain .card-container .card .btn-2 a{
+  color: rgb(13, 19, 33);
+}
+/* third section style end */
