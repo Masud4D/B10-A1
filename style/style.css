@@ -147,13 +147,13 @@
 .coding-container .img-content img {
   width: 80%;
 }
-.btn {
+.btn{
+  text-decoration: none;
   padding: 10px 14px;
   font-size: 15px;
   margin-top: 30px;
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
-  opacity: 0.7;
 }
 
 /* ------------------first section style end ----------------- */
@@ -381,14 +381,14 @@ footer .containt {
   width: 1140px;
   height: 40px;
 }
-.containt .title .description{
+.containt .title .description {
   color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
 }
-.containt .img-containt{
+.containt .img-containt {
   display: flex;
-  gap:16px;
+  gap: 16px;
 }
 /*---------------- footer section style end ---------------*/
